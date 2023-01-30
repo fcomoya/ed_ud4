@@ -9,7 +9,7 @@ public class prueba {
 		String user="root";
 		String pass="";
 		try {
-			System.out.println("conectando con: " + jdbcurl);
+			System.out.println("Conectando con: " + jdbcurl);
 			Connection myConn = DriverManager.getConnection(jdbcurl, user, pass);
 		}
 		catch (Exception exc) {
