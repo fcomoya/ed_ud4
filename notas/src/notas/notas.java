@@ -7,7 +7,7 @@ public static void main(String[] args) {
 Scanner reader = new Scanner(System.in);// Para pedir números por teclado
 int n = 0;
 String c = "";
-System.out.print("Introduzca una nota: ");
+System.out.print("Introduzca una nota válida: ");
 n = reader.nextInt();
 if (n >= 0 && n < 5)
 c = "Suspenso";
